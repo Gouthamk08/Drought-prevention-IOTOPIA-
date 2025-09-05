@@ -48,15 +48,86 @@ To get this project running on your local machine, follow these steps.
 
 **1. Clone the repository:**
 ```bash
-git clone [https://github.com/Gouthamk08/smart-irrigation-hackathon.git](https://github.com/Gouthamk08/smart-irrigation-hackathon.git)
+git clone https://github.com/Gouthamk08/smart-irrigation-hackathon.git
 cd smart-irrigation-hackathon/backend
 
-```markdown
-**2. Set up the virtual environment and install dependencies:**
-```bash
-# Create and activate the virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+Of course. Here is the entire "How to Run Locally" section, with all steps included, in a single block for easy copying.
 
-# Install all required libraries from the requirements file
+````markdown
+## 🚀 How to Run Locally
+
+To get this project running on your local machine, follow these steps.
+
+**Prerequisites:**
+* Python 3.x
+* Git
+* A free API key from [OpenWeatherMap](https'://openweathermap.org/api')
+
+---
+**Step 1: Clone the Repository**
+Open your terminal and run this command to download the project files:
+```bash
+git clone [https://github.com/Gouthamk08/Drought-prevention-IOTOPIA-.git](https://github.com/Gouthamk08/Drought-prevention-IOTOPIA-.git)
+````
+
+-----
+
+**Step 2: Navigate to the Project Directory**
+
+```bash
+cd Drought-prevention-IOTOPIA-/backend
+```
+
+-----
+
+**Step 3: Set Up the Virtual Environment**
+This creates an isolated environment for the Python libraries.
+
+```bash
+# Create the virtual environment
+python -m venv venv
+
+# Activate it
+# On Windows:
+# venv\Scripts\activate
+# On Mac/Linux:
+source venv/bin/activate
+```
+
+-----
+
+**Step 4: Install Dependencies**
+This command installs all the required libraries from the `requirements.txt` file.
+
+```bash
 pip install -r requirements.txt
+```
+
+-----
+
+**Step 5: Add Your API Key**
+
+1.  Open the `backend/weather.py` file in a text editor.
+2.  Replace the placeholder `"YOUR_API_KEY_HERE"` with your actual OpenWeatherMap API key.
+3.  Save and close the file.
+
+-----
+
+**Step 6: Run the Server**
+Now, start the Flask application.
+
+```bash
+python app.py
+```
+
+-----
+
+**Step 7: View the Application**
+Your project is now running\!
+
+  * Open your web browser and navigate to: **`http://127.0.0.1:5000`**
+
+The smart irrigation dashboard should now be fully functional.
+
+```
+```
