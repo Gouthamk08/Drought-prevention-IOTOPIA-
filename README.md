@@ -50,3 +50,12 @@ To get this project running on your local machine, follow these steps.
 ```bash
 git clone [https://github.com/Gouthamk08/smart-irrigation-hackathon.git](https://github.com/Gouthamk08/smart-irrigation-hackathon.git)
 cd smart-irrigation-hackathon/backend
+
+**2. Set up the virtual environment and install dependencies:**
+```bash
+# Create and activate the virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+
+# Install all required libraries from the requirements file
+pip install -r requirements.txt
