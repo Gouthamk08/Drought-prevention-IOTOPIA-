@@ -37,41 +37,26 @@ This project is a full-stack application built with the following technologies:
     * **AI/ML (Simulated):** The `ai_model.py` mimics a predictive model to provide intelligent watering schedules.
     * **Blockchain (Simulated):** `blockchain.py` implements a simple, functional blockchain to log transactions.
 
----
+-----
 ## 🚀 How to Run Locally
 
 To get this project running on your local machine, follow these steps.
 
 **Prerequisites:**
 * Python 3.x
-* An API key from [OpenWeatherMap](https://openweathermap.org/api)
-
-**1. Clone the repository:**
-```bash
-git clone https://github.com/Gouthamk08/smart-irrigation-hackathon.git
-cd smart-irrigation-hackathon/backend
-
-To get this project running on your local machine, follow these steps.
-
-**Prerequisites:**
-* Python 3.x
 * Git
-* A free API key from [OpenWeatherMap](https'://openweathermap.org/api')
-
-git clone [https://github.com/Gouthamk08/Drought-prevention-IOTOPIA-.git](https://github.com/Gouthamk08/Drought-prevention-IOTOPIA-.git)
+* A free API key from [OpenWeatherMap](https://openweathermap.org/api)
 
 -----
-
-**Step 2: Navigate to the Project Directory**
-
+**Step 1: Clone the Repository and Navigate into the Project**
 ```bash
+git clone [https://github.com/Gouthamk08/Drought-prevention-IOTOPIA-.git](https://github.com/Gouthamk08/Drought-prevention-IOTOPIA-.git)
 cd Drought-prevention-IOTOPIA-/backend
 ```
 
 -----
 
-**Step 3: Set Up the Virtual Environment**
-This creates an isolated environment for the Python libraries.
+**Step 2: Set Up the Virtual Environment**
 
 ```bash
 # Create the virtual environment
@@ -86,8 +71,7 @@ source venv/bin/activate
 
 -----
 
-**Step 4: Install Dependencies**
-This command installs all the required libraries from the `requirements.txt` file.
+**Step 3: Install Dependencies**
 
 ```bash
 pip install -r requirements.txt
@@ -95,7 +79,7 @@ pip install -r requirements.txt
 
 -----
 
-**Step 5: Add Your API Key**
+**Step 4: Add Your API Key**
 
 1.  Open the `backend/weather.py` file in a text editor.
 2.  Replace the placeholder `"YOUR_API_KEY_HERE"` with your actual OpenWeatherMap API key.
@@ -103,8 +87,7 @@ pip install -r requirements.txt
 
 -----
 
-**Step 6: Run the Server**
-Now, start the Flask application.
+**Step 5: Run the Server**
 
 ```bash
 python app.py
@@ -112,12 +95,9 @@ python app.py
 
 -----
 
-**Step 7: View the Application**
+**Step 6: View the Application**
 Your project is now running\!
 
   * Open your web browser and navigate to: **`http://127.0.0.1:5000`**
 
 The smart irrigation dashboard should now be fully functional.
-
-```
-```
