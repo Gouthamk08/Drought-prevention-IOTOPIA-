@@ -96,6 +96,7 @@ python app.py
 -----
 
 **Step 6: View the Application**
+
 Your project is now running\!
 
   * Open your web browser and navigate to: **`http://127.0.0.1:5000`**
