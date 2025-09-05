@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Irrigation Dashboard</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Smart Irrigation Dashboard 🌱</h1>
+    <div id="dashboard">
+        <div class="card status-card">
+            <h2>System Status</h2>
+            <p id="irrigation-status">--</p>
+            <small id="reason">Fetching data...</small>
+        </div>
+        
+        <div class="card">
+            <h3><i class="fas fa-tint"></i> Soil Moisture</h3>
+            <p class="data" id="moisture-level">-- %</p>
+        </div>
+        <div class="card">
+            <h3><i class="fas fa-thermometer-half"></i> Temperature</h3>
+            <p class="data" id="temp-level">-- °C</p>
+        </div>
+        <div class="card">
+            <h3><i class="fas fa-cloud-sun-rain"></i> Weather</h3>
+            <p class="data" id="weather-status">--</p>
+        </div>
+
+        <div class="card">
+            <h3><i class="fas fa-robot"></i> AI Recommendation</h3>
+            <p class="data" id="ai-duration">-- mins</p>
+        </div>
+        <div class="card">
+            <h3><i class="fas fa-cube"></i> Water Ledger</h3>
+            <a href="http://127.0.0.1:5000/api/water-ledger" target="_blank" class="ledger-button">View Ledger</a>
+        </div>
+
+        <div class="card chart-card">
+            <h3>Live Soil Moisture (%)</h3>
+            <canvas id="moistureChart"></canvas>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
