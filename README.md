@@ -51,11 +51,6 @@ To get this project running on your local machine, follow these steps.
 git clone https://github.com/Gouthamk08/smart-irrigation-hackathon.git
 cd smart-irrigation-hackathon/backend
 
-Of course. Here is the entire "How to Run Locally" section, with all steps included, in a single block for easy copying.
-
-````markdown
-## 🚀 How to Run Locally
-
 To get this project running on your local machine, follow these steps.
 
 **Prerequisites:**
@@ -63,12 +58,7 @@ To get this project running on your local machine, follow these steps.
 * Git
 * A free API key from [OpenWeatherMap](https'://openweathermap.org/api')
 
----
-**Step 1: Clone the Repository**
-Open your terminal and run this command to download the project files:
-```bash
 git clone [https://github.com/Gouthamk08/Drought-prevention-IOTOPIA-.git](https://github.com/Gouthamk08/Drought-prevention-IOTOPIA-.git)
-````
 
 -----
 
