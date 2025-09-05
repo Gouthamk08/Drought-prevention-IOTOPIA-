@@ -62,11 +62,13 @@ cd Drought-prevention-IOTOPIA-/backend
 # Create the virtual environment
 python -m venv venv
 
-# Activate it
+***Activate it
+
 # On Windows:
-# venv\Scripts\activate
+ venv\Scripts\activate
+
 # On Mac/Linux:
-#Ssource venv/bin/activate
+ Ssource venv/bin/activate
 ```
 
 -----
