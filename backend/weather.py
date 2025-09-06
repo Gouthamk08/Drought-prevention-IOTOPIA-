@@ -2,7 +2,7 @@
 import requests
 
 # Paste your API key here
-API_KEY = "YOUR_API_KEY"
+API_KEY = "YOUR_API_KEY_HERE"
 BENGALURU_LAT = "12.9716"
 BENGALURU_LON = "77.5946"
 API_URL = f"https://api.openweathermap.org/data/2.5/weather?lat={BENGALURU_LAT}&lon={BENGALURU_LON}&appid={API_KEY}"

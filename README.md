@@ -101,6 +101,7 @@ python app.py
 
 Your project is now running\!
 
-  * Open your web browser and navigate to: **`http://127.0.0.1:5000`**
+  * Open your web browser and navigate to: **`http://127.0.0.1:5000`** 
+  * if the above link didn't work directly open the index.html file in browser
 
 The smart irrigation dashboard should now be fully functional.
