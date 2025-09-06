@@ -1,5 +1,5 @@
 // The URL of the backend API
-const API_URL = "https://1339072c616d.ngrok-free.app/api/system-status";
+const API_URL = "http://127.0.0.1:5000/api/system-status";
 
 // --- CHART SETUP ---
 const moistureChartCanvas = document.getElementById('moistureChart');
@@ -12,8 +12,8 @@ const moistureChart = new Chart(moistureChartCanvas, {
             data: [], // Moisture data will go here
             borderColor: '#4ecdc4',
             backgroundColor: 'rgba(78, 205, 196, 0.1)',
-                                fill: true,
-                                tension: 0.4
+            fill: true,
+            tension: 0.4
         }]
     },
     options: {
@@ -41,11 +41,11 @@ async function updateDashboard() {
         document.getElementById("temp-level").textContent = `${data.sensor_data.temperature} °C`;
         document.getElementById("weather-status").textContent = data.weather_data.is_raining ? "Raining 🌧️" : "Clear ☀️";
         document.getElementById("ai-duration").textContent = `${data.irrigation_status.duration} mins`;
-
+        
         // Update the main status card
         const statusElement = document.getElementById("irrigation-status");
         const reasonElement = document.getElementById("reason");
-
+        
         statusElement.textContent = `WATERING: ${data.irrigation_status.decision}`;
         reasonElement.textContent = data.irrigation_status.reason;
 
